@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Países y Ciudades</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <h1>Selecciona un país y ciudad</h1>
+    
+    <!-- Dropdown para seleccionar el país -->
+    <select id="countryComboBox">
+        <option value="">Selecciona un país</option>
+    </select>
+    
+    <!-- Dropdown para seleccionar la ciudad -->
+    <select id="cityComboBox">
+        <option value="">Selecciona una ciudad</option>
+    </select>
+    
+    <!-- Botón para mostrar la información -->
+    <button id="infoButton">Mostrar Información</button>
+    
+    <!-- Nuevo botón para mostrar la base de datos -->
+    <button id="showDatabaseButton">Mostrar Base de Datos</button>
+
+    <!-- Contenedor para mostrar los resultados -->
+    <div id="result"></div>
+
+    <!-- Contenedor para el mapa -->
+    <div id="map" style="height: 400px;"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="script.js"></script> <!-- Enlazar archivo JavaScript -->
+</body>
+</html>
+
+
